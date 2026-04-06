@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body {
+    margin: 0px;
+    color: #fff;
+    background-color: black;
+    font-family: "Anonymous Pro", monospace;
+}
+
+li {
+        gap: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 30px;
+    transition: 0.4s
+}
+
+a:hover {
+    opacity: 0.4;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-list {
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+    margin-right: 60px;
+}
+
+.li-header {
+    display: flex;
+    text-decoration: none;
+}
+
+.img-footer {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 10px;
+    border-bottom: 2px solid #fff;
+}
+
+
+
+.img-section {
+    display: flex;
+    width: 800px;
+}
+
+
+span {
+    color: brown;
+}
+
+
+.section {
+    max-width: 1200px;
+    margin: 60px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding: 0 20px;
+}
+
+
+.section.reverse {
+    flex-direction: row-reverse;
+}
+
+.img-section img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+    object-fit: cover
+}
+
+.clonik {
+    color: brown;
+}
+
+
+.img-section {
+    flex-shrink: 0;
+    width: 400px;
+}
